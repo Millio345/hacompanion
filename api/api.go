@@ -54,7 +54,7 @@ type RegisterSensorRequest struct {
 	State             string            `json:"state,omitempty"`
 	Type              string            `json:"type"`
 	UniqueID          string            `json:"unique_id"`
-	UnitOfMeasurement string            `json:"unit_of_measurement"`
+	UnitOfMeasurement string            `json:"unit_of_measurement,omitempty"`
 }
 
 type registerSensorRequestPayload struct {
